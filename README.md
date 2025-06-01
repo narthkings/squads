@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Squads Game – Frontend Assessment
 
-## Getting Started
+This project is a **responsive frontend UI** built for the _Squads Game_ assessment. It replicates a user interface showcasing key features such as projections, testimonials, and bonus offers, based on provided Figma designs.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔧 Tools & Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **React.js** – Core library for building reusable UI components.
+- **Next.js** – For routing, optimization, and performance benefits.
+- **Tailwind CSS** – Utility-first CSS framework for fast styling and responsive design.
+- **Swiper.js** – For creating responsive carousels and sliders with autoplay and breakpoints.
+- **Figma** – Used as the design reference to match layout, fonts, and visual structure.
+- **TypeScript** _(optional, if used)_ – For type safety and better developer experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Features
 
-## Learn More
+- **Responsive Layouts** – Optimized for mobile, tablet, and desktop, including Mac screen resolutions.
+- **Custom Swiper Carousels** – Used for scrolling cards like user testimonials and projections.
+- **Animated Sections** – Subtle transformations and stacking of cards for depth and visual interest.
+- **Reusable Components** – Built with clean structure and easy-to-maintain component architecture.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 What I Focused On
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Pixel-perfect translation** of the Figma design.
+- Ensuring a **smooth responsive experience** for various device widths.
+- Using Swiper's **breakpoints and dynamic `slidesPerView`** to match designs for mobile and large screens.
+- Structuring clean and readable **React components** and leveraging Tailwind for scalable styling.
