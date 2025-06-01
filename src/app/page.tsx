@@ -1,103 +1,87 @@
-import Image from "next/image";
+'use client'
+
+import { Instagram, Logo, Tiktok, Twitter, Youtube } from "@/app/shared";
+import BlogPost from "@/components/sections/BlogPost";
+import Ecosystem from "@/components/sections/Ecosystem";
+import Footer from "@/components/sections/Footer";
+import WinningSquad from "@/components/sections/WinningSquad";
+import { Anek_Gurmukhi, Gloria_Hallelujah } from "next/font/google";
+// import Image from "next/image";
+import StreetYarns from "@/components/sections/StreetYarns";
+import Features from "@/components/sections/Features";
+import Players from "@/components/sections/Players";
+import Perks from "@/components/sections/Perks";
+import Hero from "@/components/sections/Hero";
+
+import "swiper/css";
+import 'swiper/css/grid';
+import 'swiper/css/free-mode';
+import 'swiper/css/autoplay';
+import Button from "@/components/Button";
+
+
+const anekGurmukhi = Anek_Gurmukhi({
+  subsets: ["latin"],
+  weight: "800",
+});
+const gloriaHallelujah = Gloria_Hallelujah({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  return (
+    <main className="min-h-screen bg-[#141b23] text-white">
+      <header className="w-full">
+        <div className="mx-auto max-w-7xl px-6 flex items-center justify-between h-20">
+          {/* <nav className="flex items-center gap-6 text-sm">
+            <a href="#" className="hover:text-[#D0F091] font-semibold text-white">Home</a>
+            <a href="#" className=" hover:text-[#D0F091] font-semibold">Partners</a>
+            <a href="#" className="hover:text-[#D0F091] text-white">How to play</a>
+            <a href="#" className="hover:text-[#D0F091] text-white">FAQs</a>
+          </nav> */}
+          <Logo className="w-40 h-auto" />
+
+          {/* Social Icons */}
+          <div className="flex items-center gap-5 text-xl">
+            <a href="#"><Twitter className="w-5 h-5" /></a>
+            <a href="#"><Tiktok className="w-5 h-5" /></a>
+            <a href="#"><Youtube className="w-5 h-5" /></a>
+            <a href="#"><Instagram className="w-5 h-5" /></a>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </header>
+
+
+      <Hero />
+      <Perks />
+
+
+      <Players />
+      <section className="relative">
+        <Features />
+
+        <StreetYarns />
+      </section>
+
+      <Ecosystem />
+      <WinningSquad />
+      <BlogPost />
+
+      <section className="mx-auto max-w-7xl mt-[7rem] mb-[5rem] px-2">
+        <div className="w-full relative h-full rounded-3xl border border-[#1F2935] p-12 space-y-4 vertix bg-gradient-to-br from-[#19212A] to-black">
+          {/* <div className={`text-8xl text-[#D0F091] ml-14 ${gloriaHallelujah.className}`}>The streets</div> */}
+          <div className={`text-8xl text-[#88C80C] ${gloriaHallelujah.className}`}>f**k with</div>
+          {/* <div className={`text-8xl relative transform translate-x-[17rem] text-[#D0F091] ${gloriaHallelujah.className}`}>Squads</div> */}
+          <div className="flex justify-center">
+            <Button>Sign Up on Squads 💸</Button>
+          </div>
+        </div>
+
+      </section>
+
+      <Footer />
+    </main >
   );
 }
