@@ -11,7 +11,7 @@ This project is a **responsive frontend UI** built for the _Squads Game_ assessm
 - **Tailwind CSS** – Utility-first CSS framework for fast styling and responsive design.
 - **Swiper.js** – For creating responsive carousels and sliders with autoplay and breakpoints.
 - **Figma** – Used as the design reference to match layout, fonts, and visual structure.
-- **TypeScript** _(optional, if used)_ – For type safety and better developer experience.
+- **TypeScript** – For type safety and better developer experience.
 
 ---
 
