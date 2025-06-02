@@ -3,11 +3,11 @@ module.exports = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "flagcdn.com",
+        hostname: "assets.squads.game",
       },
       {
         protocol: "https",
-        hostname: "upload.wikimedia.org",
+        hostname: "cdn.opticodds.com",
       },
     ],
   },

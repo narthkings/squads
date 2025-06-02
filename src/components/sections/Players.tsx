@@ -11,6 +11,8 @@ import "swiper/css";
 import 'swiper/css/grid';
 import 'swiper/css/free-mode';
 import 'swiper/css/autoplay';
+import { PlayerMarketData, useFetchAllPlayers } from '@/services/getPlayers';
+import { formatDate } from '@/utils/date';
 
 const anekGurmukhi = Anek_Gurmukhi({
     subsets: ["latin"],
@@ -22,149 +24,9 @@ const gloriaHallelujah = Gloria_Hallelujah({
 });
 
 const Players = () => {
-    const players = [
-        {
-            id: 1,
-            name: "Erling Haaland",
-            image: "/images/haaland.jpg",
-            team: "Manchester City",
-            position: "Forward",
-            match: "vs. Arsenal on 3rd Mar 11:20 PM",
-            stat: "2.5",
-            statLabel: "Shots on Target",
-        },
-        {
-            id: 2,
-            name: "Bukayo Saka",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Winger",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.8",
-            statLabel: "Key Passes",
-        },
-        {
-            id: 3,
-            name: "Kevin De Bruyne",
-            image: "/images/haaland.jpg",
-            team: "Manchester City",
-            position: "Midfielder",
-            match: "vs. Arsenal on 3rd Mar 11:20 PM",
-            stat: "3.1",
-            statLabel: "Chances Created",
-        },
-        {
-            id: 4,
-            name: "Martin Ødegaard",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Midfielder",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "2.0",
-            statLabel: "Dribbles",
-        },
-        {
-            id: 5,
-            name: "Phil Foden",
-            image: "/images/haaland.jpg",
-            team: "Manchester City",
-            position: "Midfielder",
-            match: "vs. Arsenal on 3rd Mar 11:20 PM",
-            stat: "1.2",
-            statLabel: "Shots",
-        },
-        {
-            id: 6,
-            name: "Gabriel Jesus",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Forward",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "0.9",
-            statLabel: "Goals",
-        },
-        {
-            id: 7,
-            name: "Jack Grealish",
-            image: "/images/haaland.jpg",
-            team: "Manchester City",
-            position: "Winger",
-            match: "vs. Arsenal on 3rd Mar 11:20 PM",
-            stat: "2.2",
-            statLabel: "Crosses",
-        },
-        {
-            id: 8,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        {
-            id: 9,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        {
-            id: 10,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        {
-            id: 11,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        {
-            id: 12,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        {
-            id: 13,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        {
-            id: 14,
-            name: "William Saliba",
-            image: "/images/haaland.jpg",
-            team: "Arsenal",
-            position: "Defender",
-            match: "vs. Man City on 3rd Mar 11:20 PM",
-            stat: "1.5",
-            statLabel: "Tackles",
-        },
-        // More players...
-    ];
+    const { isPending, data: players, } = useFetchAllPlayers()
+
+
     return (
         <section>
             <section className="relative w-full min-h-[500px] lg:min-h-[700px]">
@@ -186,74 +48,84 @@ const Players = () => {
             </section>
 
             <section>
-                <Swiper
+                {isPending ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2">
+                        {[...Array(6)].map((_, idx) => (
+                            <div key={idx} className="animate-pulse bg-[#262F3B] h-[180px] w-[30rem] border border-[#2F3843] rounded-xl p-4" />
+                        ))}
+                    </div>
+                ) : (
+                    <Swiper
+                        spaceBetween={20}
+                        speed={2000}
+                        freeMode={true}
+                        grid={{
+                            rows: 3,        // Number of visible rows
+                            fill: "row",    // "row" or "column" filling order
+                        }}
+                        autoplay={{
+                            delay: 1200,
+                            disableOnInteraction: false,
+                        }}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        slidesPerView={3.6}
+                        breakpoints={{
+                            1728: { slidesPerView: 3.6 },
+                            1280: { slidesPerView: 2.9 }, // desktops
+                            1024: { slidesPerView: 2.1 },   // laptops
+                            768: { slidesPerView: 1.6 },    // tablets
+                            0: { slidesPerView: 0.8 },
+                        }}
+                        modules={[Autoplay, Grid, FreeMode]}
+                        className="mySwiper"
+                    >
+                        {players?.props?.map((player: PlayerMarketData) => {
+                            console.log("Players data", players);
+                            return (
+                                <SwiperSlide key={player?.player?.id}>
 
-                    spaceBetween={20}
-                    speed={2000}
-                    freeMode={true}
-                    grid={{
-                        rows: 3,        // Number of visible rows
-                        fill: "row",    // "row" or "column" filling order
-                    }}
-                    autoplay={{
-                        delay: 1200,
-                        disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    slidesPerView={3.6}
-                    breakpoints={{
-                        1728: { slidesPerView: 3.6 },
-                        1280: { slidesPerView: 2.9 }, // desktops
-                        1024: { slidesPerView: 2.1 },   // laptops
-                        768: { slidesPerView: 1.6 },    // tablets
-                        0: { slidesPerView: 0.8 },
-                    }}
-                    modules={[Autoplay, Grid, FreeMode]}
-                    className="mySwiper"
-                >
-                    {players.map((player) => (
-                        <SwiperSlide key={player.id}>
-
-                            <div key={player.id} className="bg-[#262F3B] h-full w-[30rem] border border-[#2F3843]  rounded-xl p-4 flex items-start gap-x-5 justify-between">
-                                <div className="flex items-start gap-4">
-                                    <Image
-                                        src={player.image}
-                                        alt={player.name}
-                                        width={48}
-                                        height={48}
-                                        className="w-12 h-12 rounded-full object-cover"
-                                    />
-                                    <div className="">
-                                        <p className="text-white text-lg font-semibold">{player.name}</p>
-                                        <p className="text-xs text-[#8F949A] my-1">{player.team} - {player.position}</p>
-                                        <p className="text-xs text-[#D2D4D7] w-3/5">{player.match}</p>
-                                    </div>
-                                </div>
-
-                                <section className="flex items-center gap-x-2">
-                                    <div className="flex justify-between items-center w-2/4 bg-[#1E252E] border border-[#2F3843] px-3 py-4 rounded-md">
-                                        <div className="flex flex-col items-center">
-                                            <p className="text-white text-2xl font-bold">{player.stat}</p>
-                                            <p className="text-xs text-center text-gray-400">{player.statLabel}</p>
+                                    <div key={player?.player?.id} className="bg-[#262F3B] h-full w-[30rem] border border-[#2F3843]  rounded-xl p-4 flex items-start gap-x-5 justify-between">
+                                        <div className="flex items-start gap-4">
+                                            <Image
+                                                src={player?.player?.imageUrl}
+                                                alt={player?.player?.name}
+                                                width={48}
+                                                height={48}
+                                                className="w-12 h-12 rounded-full object-cover"
+                                            />
+                                            <div className="">
+                                                <p className="text-white text-lg font-semibold">{player?.player?.name}</p>
+                                                <p className="text-xs text-[#8F949A] my-1"> Manchester City - {player?.player?.position}</p>
+                                                <p className="text-xs text-[#D2D4D7] w-3/5">vs.  Man City on  {formatDate(new Date(player?.game?.startDate))}</p>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div className="flex flex-col gap-y-2">
-                                        <button className="bg-[#1F2935] text-xs text-white font-semibold py-3 px-4 rounded-md h-[2.7rem]">
-                                            More ↑
-                                        </button>
-                                        <button className="bg-[#1F2935] text-white text-xs font-semibold py-3 px-4 rounded-md h-[2.7rem]">
-                                            Less ↓
-                                        </button>
-                                    </div>
-                                </section>
+                                        <section className="flex items-center gap-x-2 w-2/4">
+                                            <div className="flex justify-between items-center w-3/4 bg-[#1E252E] border border-[#2F3843] px-3 py-4 rounded-md">
+                                                <div className="flex flex-col items-center text-center">
+                                                    <p className="text-white text-lg font-bold">2.5</p>
+                                                    <p className="text-xs text-center text-gray-400">Shots on Target</p>
+                                                </div>
+                                            </div>
 
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                                            <div className="flex flex-col gap-y-2 w-3/4 ">
+                                                <button className="bg-[#1F2935] text-xs text-white font-semibold py-3 px-4 rounded-md h-[2.7rem]">
+                                                    More ↑
+                                                </button>
+                                                <button className="bg-[#1F2935] text-white text-xs font-semibold py-3 px-4 rounded-md h-[2.7rem]">
+                                                    Less ↓
+                                                </button>
+                                            </div>
+                                        </section>
+
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })}
+                    </Swiper>
+                )}
             </section>
         </section>
     )

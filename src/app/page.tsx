@@ -53,12 +53,10 @@ export default function Home() {
 
       <Hero />
       <Perks />
-
-
       <Players />
+
       <section className="relative">
         <Features />
-
         <StreetYarns />
       </section>
 
