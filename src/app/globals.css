@@ -9,6 +9,8 @@
 
 .vertix {
   background-image: url("/images/vertix.png");
+  /* background: #19212a; */
+  /* background: linear-gradient(135deg, #19212a, #000000); */
 }
 .decoration {
   background-image: url("/images/decoration.png");
@@ -65,3 +67,12 @@
   display: inline-flex;
   animation: marquee 10s linear infinite;
 }
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=19212a&c2=000000&gt=l&gd=dtl
+*/
+/* .bg {
+  background: #19212a;
+  background: linear-gradient(135deg, #19212a, #000000);
+} */

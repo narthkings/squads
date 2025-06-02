@@ -1,0 +1,1717 @@
+[
+  {
+    "groupId": "70b786d6-f275-41a1-8ccc-ec9117e8ac35#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "70b786d6-f275-41a1-8ccc-ec9117e8ac35",
+      "name": "Bruno Miguel Borges Fernandes",
+      "imageUrl": "https://assets.squads.game/player-images/70b786d6-f275-41a1-8ccc-ec9117e8ac35.png",
+      "imageUrl128": "https://assets.squads.game/player-images70b786d6-f275-41a1-8ccc-ec9117e8ac35.png",
+      "position": "M",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 29,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "943a2bff-ccf9-410c-a816-239a10e86401",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "2e347278-b509-46b0-9bad-fa359115664c",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "groupId": "3ab47042-d413-4f05-904c-d8c574f5cea4#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "3ab47042-d413-4f05-904c-d8c574f5cea4",
+      "name": "Leroy Sané",
+      "imageUrl": "https://assets.squads.game/player-images/3ab47042-d413-4f05-904c-d8c574f5cea4.png",
+      "imageUrl128": "https://assets.squads.game/player-images3ab47042-d413-4f05-904c-d8c574f5cea4.png",
+      "position": "F",
+      "team": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 23,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "f382774a-e4ef-431c-8b23-1faacaa72d0d",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "077f381d-e149-4951-9c1d-2bd96c7f274e",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      },
+      {
+        "lines": [
+          {
+            "id": "4d5d524b-832f-4d3b-8e13-25fac499d74f",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "adac3fd6-aef0-442b-a4a5-c0e9b63e2db1#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "adac3fd6-aef0-442b-a4a5-c0e9b63e2db1",
+      "name": "João Félix Sequeira",
+      "imageUrl": "https://assets.squads.game/player-images/adac3fd6-aef0-442b-a4a5-c0e9b63e2db1.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesadac3fd6-aef0-442b-a4a5-c0e9b63e2db1.png",
+      "position": "F",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 1,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "04bc178e-dd59-488c-bc6c-d6d4eee97c62",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "5390a427-f9d6-44e4-bc4d-e91ed8af38fb",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "groupId": "922b6623-9002-44ae-b261-a97ddd68970a#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "922b6623-9002-44ae-b261-a97ddd68970a",
+      "name": "Marcus Thuram",
+      "imageUrl": "https://assets.squads.game/player-images/922b6623-9002-44ae-b261-a97ddd68970a.png",
+      "imageUrl128": "https://assets.squads.game/player-images922b6623-9002-44ae-b261-a97ddd68970a.png",
+      "position": "F",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 20,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "72451c07-4bd9-456f-8e4e-8741da1f19dc",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "a899ae85-6772-4dc1-bda5-fa6342f072a3",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      },
+      {
+        "lines": [
+          {
+            "id": "57738814-a62d-4c69-b07b-8e19eba76fec",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "b0324fca-1374-458c-8460-884c6b562df3#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "b0324fca-1374-458c-8460-884c6b562df3",
+      "name": "Dani Olmo",
+      "imageUrl": "https://assets.squads.game/player-images/b0324fca-1374-458c-8460-884c6b562df3.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesb0324fca-1374-458c-8460-884c6b562df3.png",
+      "position": "M",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 15,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "3222461d-921f-4870-834f-7bf454e467ec",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "f2f6ade9-65ae-47d0-8598-2e5fb5bf9dc9",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      },
+      {
+        "lines": [
+          {
+            "id": "d77b5ec4-fec4-49a2-b3cb-b2c7c0a62a45",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "f1efa5b5-dfb4-4e52-8712-2a4ccc5d30b2#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "f1efa5b5-dfb4-4e52-8712-2a4ccc5d30b2",
+      "name": "Kylian Mbappé",
+      "imageUrl": "https://assets.squads.game/player-images/f1efa5b5-dfb4-4e52-8712-2a4ccc5d30b2.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesf1efa5b5-dfb4-4e52-8712-2a4ccc5d30b2.png",
+      "position": "F",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 44,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "1b7bf4a9-9ea9-436d-b117-9458d15e10ca",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "2d2304df-8432-49e6-8b5b-1cf58c49b64b",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "NORMAL"
+      },
+      {
+        "lines": [
+          {
+            "id": "044abf5b-187a-4f0f-8a7a-9dfc38487c15",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 2.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "4e9e1221-aa67-4957-b476-8611083c741e#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "4e9e1221-aa67-4957-b476-8611083c741e",
+      "name": "Nico Williams",
+      "imageUrl": "https://assets.squads.game/player-images/4e9e1221-aa67-4957-b476-8611083c741e.png",
+      "imageUrl128": "https://assets.squads.game/player-images4e9e1221-aa67-4957-b476-8611083c741e.png",
+      "position": "F",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 49,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "b3610ace-0da3-4cdf-aba1-e628986bedbe",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "67c06ff2-0ae9-4b29-9672-17d35cb4c416",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      },
+      {
+        "lines": [
+          {
+            "id": "8715a92e-5e2c-43a4-bad4-4b5596caf968",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "1e4d1121-7f84-4020-a564-c2dd920ca5e1#player_shots_on_target#b9053c95-4d50-40c1-b658-88c94bbf41e5",
+    "player": {
+      "id": "1e4d1121-7f84-4020-a564-c2dd920ca5e1",
+      "name": "Lautaro Martínez",
+      "imageUrl": "https://assets.squads.game/player-images/1e4d1121-7f84-4020-a564-c2dd920ca5e1.png",
+      "imageUrl128": "https://assets.squads.game/player-images1e4d1121-7f84-4020-a564-c2dd920ca5e1.png",
+      "position": "F",
+      "team": {
+        "id": "e3e2c47f-783a-4c74-a15e-98f996877010"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "b9053c95-4d50-40c1-b658-88c94bbf41e5",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-06T01:00:00.000Z",
+      "league": "fifa_-_world_cup_qualifiers",
+      "homeTeam": {
+        "id": "86f37d42-148c-4559-aa9c-2b5325ed17f8",
+        "name": "Chile",
+        "abbreviation": "CHI",
+        "nickname": "Chile"
+      },
+      "awayTeam": {
+        "id": "e3e2c47f-783a-4c74-a15e-98f996877010",
+        "name": "Argentina",
+        "abbreviation": "ARG",
+        "nickname": "Argentina"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 1,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "e0039269-d32e-4291-90a3-506ae86710f6",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "ICE"
+      },
+      {
+        "lines": [
+          {
+            "id": "3ce387e2-e61b-46e8-861e-1777382654b9",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 2.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "e2c10174-9591-45a1-a21b-5a96d0d05a29#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "e2c10174-9591-45a1-a21b-5a96d0d05a29",
+      "name": "Diogo José Teixeira da Silva",
+      "imageUrl": "https://assets.squads.game/player-images/e2c10174-9591-45a1-a21b-5a96d0d05a29.png",
+      "imageUrl128": "https://assets.squads.game/player-imagese2c10174-9591-45a1-a21b-5a96d0d05a29.png",
+      "position": "F",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 2,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "1902a61e-dfcc-4476-b670-f07c57b48574",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "d4aac920-a29e-4d65-ad45-cc53e4a873fe",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      },
+      {
+        "lines": [
+          {
+            "id": "269a5aa5-cfff-406f-b777-d3c5c2fbaf73",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "51e1fe8e-527c-47b6-8f91-ef84aae98a8c#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "51e1fe8e-527c-47b6-8f91-ef84aae98a8c",
+      "name": "Désiré Doué",
+      "imageUrl": "https://cdn.opticodds.com/player-logos/soccer/416331.png",
+      "imageUrl128": "https://cdn.opticodds.com/player-logos/soccer/416331.png",
+      "position": "F",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": "14"
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 1,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "5fe9a4df-c6a4-4204-aa75-e7b57b7c9ec8",
+            "selectionLine": "over",
+            "isAvailable": true
+          },
+          {
+            "id": "6dd45080-906c-45cd-a8f0-ff56e03d9115",
+            "selectionLine": "under",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "NORMAL"
+      }
+    ]
+  },
+  {
+    "groupId": "6bbfa0c8-a055-4e29-ba8e-0c6803318e0f#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "6bbfa0c8-a055-4e29-ba8e-0c6803318e0f",
+      "name": "Nuno Alexandre Tavares Mendes",
+      "imageUrl": "https://cdn.opticodds.com/player-logos/soccer/437997.png",
+      "imageUrl128": "https://cdn.opticodds.com/player-logos/soccer/437997.png",
+      "position": "D",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": "25"
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "0e5685c2-3500-4b45-a63e-6564cd50a8ad",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "69a4ab76-9a72-476c-87f3-179e94816e21#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "69a4ab76-9a72-476c-87f3-179e94816e21",
+      "name": "Florian Wirtz",
+      "imageUrl": "https://assets.squads.game/player-images/69a4ab76-9a72-476c-87f3-179e94816e21.png",
+      "imageUrl128": "https://assets.squads.game/player-images69a4ab76-9a72-476c-87f3-179e94816e21.png",
+      "position": "M",
+      "team": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 17,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "9ab29176-975f-4885-8a93-b56f0fd5d268",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "ICE"
+      },
+      {
+        "lines": [
+          {
+            "id": "5f72cbfb-b17b-4d7c-a070-9e04acf5c2c8",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "628061bb-d956-43c9-9257-7ea0298217e8#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "628061bb-d956-43c9-9257-7ea0298217e8",
+      "name": "Lamine Yamal Nasraoui Ebana",
+      "imageUrl": "https://assets.squads.game/player-images/628061bb-d956-43c9-9257-7ea0298217e8.png",
+      "imageUrl128": "https://assets.squads.game/player-images628061bb-d956-43c9-9257-7ea0298217e8.png",
+      "position": "F",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 71,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "13701f70-aafd-4f18-a916-635ba0d0cf5b",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "ICE"
+      },
+      {
+        "lines": [
+          {
+            "id": "19dfbfda-0770-4450-9726-f9b46bc4a5f6",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 2.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "e5ff1304-b6c1-4c8d-b317-40cb35df2fd6#player_shots_on_target#e3f8b13c-c6d6-4e50-a528-faedc0051042",
+    "player": {
+      "id": "e5ff1304-b6c1-4c8d-b317-40cb35df2fd6",
+      "name": "Luis Díaz",
+      "imageUrl": "https://assets.squads.game/player-images/e5ff1304-b6c1-4c8d-b317-40cb35df2fd6.png",
+      "imageUrl128": "https://assets.squads.game/player-imagese5ff1304-b6c1-4c8d-b317-40cb35df2fd6.png",
+      "position": "F",
+      "team": {
+        "id": "b3a3f3b1-465f-4617-a7b9-00b59c935152"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "e3f8b13c-c6d6-4e50-a528-faedc0051042",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-06T20:30:00.000Z",
+      "league": "fifa_-_world_cup_qualifiers",
+      "homeTeam": {
+        "id": "b3a3f3b1-465f-4617-a7b9-00b59c935152",
+        "name": "Colombia",
+        "abbreviation": "COL",
+        "nickname": "Colombia"
+      },
+      "awayTeam": {
+        "id": "d2b9ff60-0f91-44d6-bfe1-05829b484449",
+        "name": "Peru",
+        "abbreviation": "PER",
+        "nickname": "Peru"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 3,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "805ff490-70a4-4a7a-bd4e-68ec55b3c107",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 2.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "57778c7e-412f-46cb-b7ea-bea8a2cd4c1d#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "57778c7e-412f-46cb-b7ea-bea8a2cd4c1d",
+      "name": "João Pedro Gonçalves Neves",
+      "imageUrl": "https://assets.squads.game/player-images/57778c7e-412f-46cb-b7ea-bea8a2cd4c1d.png",
+      "imageUrl128": "https://assets.squads.game/player-images57778c7e-412f-46cb-b7ea-bea8a2cd4c1d.png",
+      "position": "M",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 2,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "7ab9977b-2c72-42ee-a107-64332c85c7d7",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "619bf14e-5397-4020-a1ab-0bca4c2ecf20#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "619bf14e-5397-4020-a1ab-0bca4c2ecf20",
+      "name": "Aurélien Tchouaméni",
+      "imageUrl": "https://assets.squads.game/player-images/619bf14e-5397-4020-a1ab-0bca4c2ecf20.png",
+      "imageUrl128": "https://assets.squads.game/player-images619bf14e-5397-4020-a1ab-0bca4c2ecf20.png",
+      "position": "M",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "626308ab-260e-4693-828d-abe28a2c078e",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "8bc1156f-72df-49e8-8485-0d6cb73af0d1#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "8bc1156f-72df-49e8-8485-0d6cb73af0d1",
+      "name": "Mikel Merino",
+      "imageUrl": "https://assets.squads.game/player-images/8bc1156f-72df-49e8-8485-0d6cb73af0d1.png",
+      "imageUrl128": "https://assets.squads.game/player-images8bc1156f-72df-49e8-8485-0d6cb73af0d1.png",
+      "position": "M",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 1,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "0f69440d-edb1-4265-a898-5cb2e242f261",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "ae297278-f053-414d-a0c5-70080b86b785#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "ae297278-f053-414d-a0c5-70080b86b785",
+      "name": "Fermín López",
+      "imageUrl": "https://assets.squads.game/player-images/ae297278-f053-414d-a0c5-70080b86b785.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesae297278-f053-414d-a0c5-70080b86b785.png",
+      "position": "M",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "ed40042a-bbb5-4f45-bc40-c128d381c8b1",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "8d923447-53f2-4516-aead-5086d3a748d0#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "8d923447-53f2-4516-aead-5086d3a748d0",
+      "name": "Mattéo Guendouzi",
+      "imageUrl": "https://assets.squads.game/player-images/8d923447-53f2-4516-aead-5086d3a748d0.png",
+      "imageUrl128": "https://assets.squads.game/player-images8d923447-53f2-4516-aead-5086d3a748d0.png",
+      "position": "M",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 1,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "77699b31-9c88-45a1-9e27-0287ab7d9881",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "c106e200-dc85-49b9-99c6-252ed81a6b06#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "c106e200-dc85-49b9-99c6-252ed81a6b06",
+      "name": "Martín Zubimendi",
+      "imageUrl": "https://assets.squads.game/player-images/c106e200-dc85-49b9-99c6-252ed81a6b06.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesc106e200-dc85-49b9-99c6-252ed81a6b06.png",
+      "position": "M",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "95e8c40a-2b9e-406d-8a9d-85ab94d51c33",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "dcd7e3ab-81e2-4d03-aa3e-2ae53adf3fcd#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "dcd7e3ab-81e2-4d03-aa3e-2ae53adf3fcd",
+      "name": "Warren Zaïre-Emery",
+      "imageUrl": "https://assets.squads.game/player-images/dcd7e3ab-81e2-4d03-aa3e-2ae53adf3fcd.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesdcd7e3ab-81e2-4d03-aa3e-2ae53adf3fcd.png",
+      "position": "M",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "a3a95447-d17c-47f8-819d-20937dec0786",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "fff44889-d059-4dac-b4d3-068b023dd2a1#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "fff44889-d059-4dac-b4d3-068b023dd2a1",
+      "name": "Ousmane Dembélé",
+      "imageUrl": "https://assets.squads.game/player-images/fff44889-d059-4dac-b4d3-068b023dd2a1.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesfff44889-d059-4dac-b4d3-068b023dd2a1.png",
+      "position": "F",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 18,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "a73687ab-0bf8-4d5e-8f65-b0fb368ebb6b",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "691638b0-e1a2-43a8-b8ee-7724528227ec#player_shots_on_target#b054612e-4ae3-45e8-ac9b-4a2b8648e5ee",
+    "player": {
+      "id": "691638b0-e1a2-43a8-b8ee-7724528227ec",
+      "name": "Pervis Estupiñán",
+      "imageUrl": "https://assets.squads.game/player-images/691638b0-e1a2-43a8-b8ee-7724528227ec.png",
+      "imageUrl128": "https://assets.squads.game/player-images691638b0-e1a2-43a8-b8ee-7724528227ec.png",
+      "position": "D",
+      "team": {
+        "id": "986dbaf2-bf57-4014-9efa-9747de933d49"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "b054612e-4ae3-45e8-ac9b-4a2b8648e5ee",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T23:00:00.000Z",
+      "league": "fifa_-_world_cup_qualifiers",
+      "homeTeam": {
+        "id": "986dbaf2-bf57-4014-9efa-9747de933d49",
+        "name": "Ecuador",
+        "abbreviation": "ECU",
+        "nickname": "Ecuador"
+      },
+      "awayTeam": {
+        "id": "b1cee476-eb44-46df-95d0-d38287505a7b",
+        "name": "Brazil",
+        "abbreviation": "BRA",
+        "nickname": "Brazil"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "0f816f0f-689d-4a40-951c-cda5b2baa2b7",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "6628774f-b24d-4f85-944d-a31198f4f053#player_shots_on_target#b054612e-4ae3-45e8-ac9b-4a2b8648e5ee",
+    "player": {
+      "id": "6628774f-b24d-4f85-944d-a31198f4f053",
+      "name": "Enner Valencia",
+      "imageUrl": "https://assets.squads.game/player-images/6628774f-b24d-4f85-944d-a31198f4f053.png",
+      "imageUrl128": "https://assets.squads.game/player-images6628774f-b24d-4f85-944d-a31198f4f053.png",
+      "position": "F",
+      "team": {
+        "id": "986dbaf2-bf57-4014-9efa-9747de933d49"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "b054612e-4ae3-45e8-ac9b-4a2b8648e5ee",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T23:00:00.000Z",
+      "league": "fifa_-_world_cup_qualifiers",
+      "homeTeam": {
+        "id": "986dbaf2-bf57-4014-9efa-9747de933d49",
+        "name": "Ecuador",
+        "abbreviation": "ECU",
+        "nickname": "Ecuador"
+      },
+      "awayTeam": {
+        "id": "b1cee476-eb44-46df-95d0-d38287505a7b",
+        "name": "Brazil",
+        "abbreviation": "BRA",
+        "nickname": "Brazil"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "1e8deffa-411a-44a8-a6c4-326d12317a6b",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "ICE"
+      }
+    ]
+  },
+  {
+    "groupId": "77e530be-50bf-4299-9853-50c709a3c287#player_shots_on_target#b9053c95-4d50-40c1-b658-88c94bbf41e5",
+    "player": {
+      "id": "77e530be-50bf-4299-9853-50c709a3c287",
+      "name": "Rodrigo De Paul",
+      "imageUrl": "https://assets.squads.game/player-images/77e530be-50bf-4299-9853-50c709a3c287.png",
+      "imageUrl128": "https://assets.squads.game/player-images77e530be-50bf-4299-9853-50c709a3c287.png",
+      "position": "M",
+      "team": {
+        "id": "e3e2c47f-783a-4c74-a15e-98f996877010"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "b9053c95-4d50-40c1-b658-88c94bbf41e5",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-06T01:00:00.000Z",
+      "league": "fifa_-_world_cup_qualifiers",
+      "homeTeam": {
+        "id": "86f37d42-148c-4559-aa9c-2b5325ed17f8",
+        "name": "Chile",
+        "abbreviation": "CHI",
+        "nickname": "Chile"
+      },
+      "awayTeam": {
+        "id": "e3e2c47f-783a-4c74-a15e-98f996877010",
+        "name": "Argentina",
+        "abbreviation": "ARG",
+        "nickname": "Argentina"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "4c6f4f3d-164c-431e-afa0-a3ad17dc0691",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "9a632073-8228-4371-b8dd-793867ba9b6d#player_shots_on_target#b9053c95-4d50-40c1-b658-88c94bbf41e5",
+    "player": {
+      "id": "9a632073-8228-4371-b8dd-793867ba9b6d",
+      "name": "Julián Álvarez",
+      "imageUrl": "https://assets.squads.game/player-images/9a632073-8228-4371-b8dd-793867ba9b6d.png",
+      "imageUrl128": "https://assets.squads.game/player-images9a632073-8228-4371-b8dd-793867ba9b6d.png",
+      "position": "F",
+      "team": {
+        "id": "e3e2c47f-783a-4c74-a15e-98f996877010"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "b9053c95-4d50-40c1-b658-88c94bbf41e5",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-06T01:00:00.000Z",
+      "league": "fifa_-_world_cup_qualifiers",
+      "homeTeam": {
+        "id": "86f37d42-148c-4559-aa9c-2b5325ed17f8",
+        "name": "Chile",
+        "abbreviation": "CHI",
+        "nickname": "Chile"
+      },
+      "awayTeam": {
+        "id": "e3e2c47f-783a-4c74-a15e-98f996877010",
+        "name": "Argentina",
+        "abbreviation": "ARG",
+        "nickname": "Argentina"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 1,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "fceb429e-74bb-496b-a275-131a2a0d0602",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "ICE"
+      },
+      {
+        "lines": [
+          {
+            "id": "e0840140-3b25-49d6-b672-9a8794790c2d",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "24971c3a-bf92-42d3-ac42-54e6f361d601#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "24971c3a-bf92-42d3-ac42-54e6f361d601",
+      "name": "Bernardo Mota Veiga de Carvalho e Silva",
+      "imageUrl": "https://assets.squads.game/player-images/24971c3a-bf92-42d3-ac42-54e6f361d601.png",
+      "imageUrl128": "https://assets.squads.game/player-images24971c3a-bf92-42d3-ac42-54e6f361d601.png",
+      "position": "M",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 8,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "e8492e22-f5ee-48b4-a290-b388f686b710",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "ae4178cc-2a2d-44e8-921f-e66680cde0c2#player_shots_on_target#d1ca2675-0081-4771-9b89-98acf7ca26c1",
+    "player": {
+      "id": "ae4178cc-2a2d-44e8-921f-e66680cde0c2",
+      "name": "Gonçalo Matias Ramos",
+      "imageUrl": "https://assets.squads.game/player-images/ae4178cc-2a2d-44e8-921f-e66680cde0c2.png",
+      "imageUrl128": "https://assets.squads.game/player-imagesae4178cc-2a2d-44e8-921f-e66680cde0c2.png",
+      "position": "F",
+      "team": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "d1ca2675-0081-4771-9b89-98acf7ca26c1",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-04T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "8cc84e40-a277-4abd-821e-7defb970eb64",
+        "name": "Germany",
+        "abbreviation": "GER",
+        "nickname": "Germany"
+      },
+      "awayTeam": {
+        "id": "5c17c810-9e8e-4202-9f35-03bc59fdbdf6",
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "nickname": "Portugal"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "caa293ce-fb7e-420c-bdf7-8899c4668f6f",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 1.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "2d86ec91-dda5-47da-a6d6-b12ef73ab521#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "2d86ec91-dda5-47da-a6d6-b12ef73ab521",
+      "name": "Benjamin Pavard",
+      "imageUrl": "https://assets.squads.game/player-images/2d86ec91-dda5-47da-a6d6-b12ef73ab521.png",
+      "imageUrl128": "https://assets.squads.game/player-images2d86ec91-dda5-47da-a6d6-b12ef73ab521.png",
+      "position": "D",
+      "team": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 0,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "e50d33ff-261a-4b60-ad59-c0c426597f8d",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  },
+  {
+    "groupId": "281a97c9-59e6-4f41-bca1-b6d66210f469#player_shots_on_target#5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+    "player": {
+      "id": "281a97c9-59e6-4f41-bca1-b6d66210f469",
+      "name": "Marc Cucurella",
+      "imageUrl": "https://assets.squads.game/player-images/281a97c9-59e6-4f41-bca1-b6d66210f469.png",
+      "imageUrl128": "https://assets.squads.game/player-images281a97c9-59e6-4f41-bca1-b6d66210f469.png",
+      "position": "D",
+      "team": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a"
+      },
+      "number": null
+    },
+    "sport": "soccer",
+    "game": {
+      "id": "5147d69f-9cbf-4fb1-b006-11a9a5d24d77",
+      "status": "UNPLAYED",
+      "isLive": false,
+      "startDate": "2025-06-05T19:00:00.000Z",
+      "league": "uefa_-_nations_league",
+      "homeTeam": {
+        "id": "85d44d60-6b8b-4ac8-a0ce-5b68557bdc2a",
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "nickname": "Spain"
+      },
+      "awayTeam": {
+        "id": "8eaac601-c7d4-4aeb-92ce-b43f5c7f9a18",
+        "name": "France",
+        "abbreviation": "FRA",
+        "nickname": "France"
+      }
+    },
+    "market": {
+      "id": "player_shots_on_target",
+      "name": "Player Shots On Target"
+    },
+    "parlaySelectionsCount": 2,
+    "props": [
+      {
+        "lines": [
+          {
+            "id": "a353e884-03d3-402c-bd96-447da502804d",
+            "selectionLine": "over",
+            "isAvailable": true
+          }
+        ],
+        "betPoints": 0.5,
+        "type": "FLAMES"
+      }
+    ]
+  }
+]

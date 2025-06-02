@@ -13,12 +13,12 @@ export interface PlayerMarketData {
         team: {
             id: string;
         };
-        number: number | null;
+        number: string | null;
     };
     sport: string;
     game: {
         id: string;
-        status: 'UNPLAYED' | 'LIVE' | 'COMPLETED';
+        status: 'UNPLAYED' | 'LIVE' | 'COMPLETED' | string;
         isLive: boolean;
         startDate: string;
         league: string;
@@ -43,7 +43,7 @@ export interface PlayerMarketData {
     props: {
         lines: {
             id: string;
-            selectionLine: 'over' | 'under';
+            selectionLine: 'over' | 'under' | string;
             isAvailable: boolean;
         }[];
         betPoints: number;
