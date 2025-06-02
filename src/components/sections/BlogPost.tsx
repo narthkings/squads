@@ -20,7 +20,7 @@ const BlogPost = () => {
     const blogPosts = [
         {
             id: 1,
-            image: "/images/image_1.png",
+            image: "https://res.cloudinary.com/dumzy/image/upload/v1748876116/Image_1_w1vzd1.png",
             category: "News",
             highlightColor: "text-[#218208]",
             title: "Introducing: The new way to win money on sports .",
@@ -28,7 +28,7 @@ const BlogPost = () => {
         },
         {
             id: 2,
-            image: "/images/image_2.png",
+            image: "https://res.cloudinary.com/dumzy/image/upload/v1748876116/Image_2_imop2h.png",
             category: "Tips",
             highlightColor: "text-[#FD89ED]",
             title: "From signing up to enjoying our sweet benefits, it only takes a few..",
@@ -36,7 +36,7 @@ const BlogPost = () => {
         },
         {
             id: 3,
-            image: "/images/image_3.png",
+            image: "https://res.cloudinary.com/dumzy/image/upload/v1748876116/Image_3_jjjmoq.png",
             category: "News",
             highlightColor: "text-[#F9CC00]",
             title: "Squads Game: Win real money with your football knowledge",

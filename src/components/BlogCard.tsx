@@ -15,7 +15,7 @@ export function BlogCard({ image, category, title, description, highlightColor }
     return (
         <div className="max-w-sm">
             <AspectRatio.Root ratio={16 / 9} className="rounded-xl overflow-hidden mb-4">
-                <Image src={image} alt={title} fill className="object-cover" />
+                <Image src={image} alt={title} fill className="object-cover" loading='lazy' />
             </AspectRatio.Root>
             <div className={`text-sm font-semibold ${highlightColor}`}>{category}</div>
             <h3 className="text-lg font-bold leading-snug text-[#D2D4D7] mt-1">{title}</h3>
