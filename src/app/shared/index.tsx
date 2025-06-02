@@ -688,3 +688,37 @@ export const YellowIcon = (props: SVGProps<SVGSVGElement>) => (
         </defs>
     </svg>
 );
+export const Menu = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        width={25}
+        height={20}
+        viewBox="0 0 25 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <path
+            d="M1.667 2.2H23m-21.333 8H23m-21.333 8H23"
+            stroke="#D2D4D7"
+            strokeWidth={2.667}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+    </svg>
+);
+
+export const Close = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        width={800}
+        height={800}
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="m8 8.707 3.646 3.647.708-.707L8.707 8l3.647-3.646-.707-.708L8 7.293 4.354 3.646l-.707.708L7.293 8l-3.646 3.646.707.708z"
+        />
+    </svg>
+);
