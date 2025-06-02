@@ -5,7 +5,7 @@ import BlogPost from "@/components/sections/BlogPost";
 import Ecosystem from "@/components/sections/Ecosystem";
 import Footer from "@/components/sections/Footer";
 import WinningSquad from "@/components/sections/WinningSquad";
-import { Anek_Gurmukhi, Gloria_Hallelujah } from "next/font/google";
+import { Gloria_Hallelujah } from "next/font/google";
 // import Image from "next/image";
 import StreetYarns from "@/components/sections/StreetYarns";
 import Features from "@/components/sections/Features";
@@ -20,10 +20,6 @@ import 'swiper/css/autoplay';
 import Button from "@/components/Button";
 
 
-const anekGurmukhi = Anek_Gurmukhi({
-  subsets: ["latin"],
-  weight: "800",
-});
 const gloriaHallelujah = Gloria_Hallelujah({
   subsets: ["latin"],
   weight: "400",
