@@ -20,7 +20,7 @@ const StreetSquad = () => {
     return (
         <section className="mx-auto max-w-7xl mt-[7rem] mb-[5rem] px-2 relative">
 
-            <div className="w-full relative h-full rounded-3xl border min-h-[50rem] border-[#1F2935] p-12 space-y-4 vertix hidden xl:block">
+            <div className="w-full relative h-full rounded-3xl border min-h-[50rem] border-[#1F2935] p-12 space-y-4 vertix hidden 1xl:block">
                 <section>
                     <div
                         className={`bg-[#262F3B] rounded-xl p-5 w-[23%] absolute left-0 bottom-0 rotate-[-8deg] transform translate-x-[3rem] translate-y-[-14rem]  text-[#D2D4D7] ${anekGurmukhi.className}`}
@@ -59,7 +59,7 @@ const StreetSquad = () => {
 
                 <section>
                     <div
-                        className={`bg-[#262F3B] rounded-xl p-5 w-[23%] absolute right-0 bottom-0 rotate-[-4deg]  transform translate-x-[-12rem] translate-y-[-20rem] text-[#D2D4D7] ${anekGurmukhi.className}`}
+                        className={`bg-[#1F2935] rounded-xl p-5 w-[23%] absolute right-0 bottom-0 rotate-[-4deg]  transform translate-x-[-12rem] translate-y-[-20rem] text-[#D2D4D7] ${anekGurmukhi.className}`}
                     >
                         <div className="space-y-3">
                             <div className="flex flex-col pt-2 text-xs text-gray-400">
@@ -76,7 +76,7 @@ const StreetSquad = () => {
                     </div>
 
                     <div
-                        className={`bg-[#262F3B] rounded-xl p-4 text-[#D2D4D7] w-1/4 ${anekGurmukhi.className} rotate-[6deg] transform translate-x-[-6rem] translate-y-[-15rem] absolute right-0 bottom-0`}
+                        className={`bg-[#1F2935] rounded-xl p-4 text-[#D2D4D7] w-1/4 ${anekGurmukhi.className} rotate-[6deg] transform translate-x-[-6rem] translate-y-[-15rem] absolute right-0 bottom-0`}
                     >
                         <div className="rounded-lg">
                             <Image
@@ -100,7 +100,7 @@ const StreetSquad = () => {
 
 
                     <div
-                        className={`bg-[#262F3B] rounded-xl p-6 w-[23%] absolute right-0 bottom-0 rotate-[18deg] transform translate-x-[-5rem] translate-y-[-10rem]  text-[#D2D4D7] ${anekGurmukhi.className}`}
+                        className={`bg-[#1F2935] rounded-xl p-6 w-[23%] absolute right-0 bottom-0 rotate-[18deg] transform translate-x-[-5rem] translate-y-[-10rem]  text-[#D2D4D7] ${anekGurmukhi.className}`}
                     >
                         <div className="space-y-3">
                             <div className="flex flex-col pt-2 text-xs text-gray-400">
@@ -122,32 +122,18 @@ const StreetSquad = () => {
             </div>
 
 
-            {/* second card */}
+            {/* second card for smaller screens */}
 
-            <div className="w-full relative h-full rounded-3xl border min-h-[40rem] md:min-h-[60rem] border-[#1F2935] p-12 space-y-4 vertix block xl:hidden">
-
-                {/* <section className="absolute transform translate-x-[20%] translate-y-[12rem] lg:translate-y-[10rem]">
-                    <div className={`text-4xl md:text-7xl text-[#D0F091] ml-14 ${gloriaHallelujah.className}`}>The streets</div>
-                    <div className={`text-4xl md:text-7xl text-[#88C80C] ${gloriaHallelujah.className}`}>f**k with</div>
-                    <div className={`text-4xl md:text-7xl absolute transform translate-x-[13rem] lg:translate-x-[13rem] text-[#D0F091] ${gloriaHallelujah.className}`}>Squads</div>
-                </section> */}
-
-                <div className="flex justify-center  mx-auto transform translate-y-[10rem]  md:translate-y-[28rem]">
-                    <Button>Sign Up on Squads 💸</Button>
-                </div>
-
-
-
-
-                <section className='relative left-0 bottom-0 transform translate-x-[-6rem] translate-y-[60rem] lg:translate-y-[55rem] hidden md:block'>
+            <section className="mx-auto max-w-7xl mt-[7rem] mb-[5rem] px-2">
+                <div className="w-full relative h-full rounded-3xl border min-h-[45rem] md:min-h-[85rem] border-[#1F2935] p-2 md:p-12 space-y-4 vertix block 1xl:hidden">
 
                     <div
-                        className={`bg-[#262F3B] rounded-xl p-5 md:w-[35%] lg:w-[25%]  absolute left-0 bottom-0 rotate-[-6deg]  transform md:translate-x-[5rem] lg:translate-x-[16rem] translate-y-[-6rem] text-[#D2D4D7] ${anekGurmukhi.className}`}
+                        className={`bg-[#1A222C] rounded-xl p-5 w-[34%] lg:w-[30%] absolute left-0 top-0 rotate-[2deg] transform translate-x-[1rem] lg:translate-x-[7rem] translate-y-[6rem] lg:translate-y-[5rem] z-20 text-[#D2D4D7] ${anekGurmukhi.className} hidden md:block`}
                     >
                         <div className="space-y-3">
                             <div className="flex flex-col pt-2 text-xs text-gray-400">
                                 <p className={`font-semibold text-[#D2D4D7] text-2xl `}>
-                                    If the team like, make dem lose, my entry should sha be green😌🔥
+                                    Be like na individual stats I go dey run for squad now🔥
                                     <span className="text-[#D0F091]">#Squadgame</span>
                                 </p>
                                 <div className="flex justify-between items-center mt-2">
@@ -157,81 +143,232 @@ const StreetSquad = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div
-                        className={`bg-[#262F3B] rounded-xl p-4 text-[#D2D4D7] w-1/4 md:w-3/7 lg:w-1/4 ${anekGurmukhi.className} rotate-[6deg] transform md:translate-x-[-5rem] lg:translate-x-[-18rem] translate-y-[-1rem] absolute right-0 bottom-0`}
-                    >
-                        <div className="rounded-lg">
+                    <section className='hidden md:block'>
+                        <div className="rounded-lg w-2/4 transform translate-x-[13rem]  lg:translate-x-[24rem] translate-y-[3rem] absolute left-0 top-0 z-10">
                             <Image
-                                src={'/images/ranks.png'}
+                                src={'/images/sm_4.png'}
                                 alt="post"
-                                className="rounded-lg w-full"
+                                className="rounded-lg "
                                 height={120}
-                                width={200}
+                                width={300}
                             />
                         </div>
 
-                        <div className="space-y-3">
-                            <div className="flex flex-col pt-2 text-xs text-gray-400">
-                                <div className="flex justify-between items-center mt-2">
-                                    <p className="text-[#fff] text-sm">{'@Izu__Official'}</p>
-                                    <Logo className="w-20 h-auto" />
+                        <div
+                            className={`bg-[#1A222C] rounded-xl p-5 w-[34%] lg:w-[30%] absolute right-0 top-0 rotate-[12deg] lg:rotate-[9deg] transform translate-x-[-2rem]  md:translate-x-[-2rem] lg:translate-x-[-3rem] translate-y-[5rem]  text-[#D2D4D7] ${anekGurmukhi.className}`}
+                        >
+                            <div className="space-y-3">
+                                <div className="flex flex-col pt-2 text-xs text-gray-400">
+                                    <p className={`font-semibold text-[#D2D4D7] text-2xl `}>
+                                        @SquadsDFS is real gee is here 🥰🥰🥰🥰🥰🥰🔥🔥🔥🔥🔥🔥🔥🔥🔥
+                                        <span className="text-[#D0F091]">#Squadgame</span>
+                                    </p>
+                                    <div className="flex justify-between items-center mt-2">
+                                        <p className="text-[#fff] text-sm">{'@Izu__Official'}</p>
+                                        <Logo className="w-20 h-auto" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </section>
+
+
+
+                    <section className="absolute transform translate-x-[1rem] lg:translate-x-[5rem] translate-y-[15rem] md:translate-y-[25rem] lg:translate-y-[23rem]">
+                        <div className={`text-5xl md:text-[56px] lg:text-8xl text-[#D0F091] ml-14 ${gloriaHallelujah.className}`}>The streets</div>
+                        <div className={`text-5xl md:text-[56px] lg:text-8xl text-[#88C80C] ${gloriaHallelujah.className}`}>f**k with</div>
+                        <div className={`text-5xl md:text-[56px] lg:text-8xl absolute transform translate-x-[9rem] md:translate-x-[17rem] text-[#D0F091] ${gloriaHallelujah.className}`}>Squads</div>
+                    </section>
+
+                    <div className="absolute transform translate-x-[5rem translate-x-[6rem]  md:translate-x-[14rem] lg:translate-x-[23rem] translate-y-[26rem] md:translate-y-[45rem] ">
+                        <Button>Sign Up on Squads 💸</Button>
                     </div>
 
-                    <div
-                        className={`bg-[#262F3B] rounded-xl p-6 w-[80%]  md:w-[40%] lg:w-[30%] absolute right-0 bottom-0 rotate-[1deg] transform translate-x-[9rem] md:translate-x-[4rem] lg:translate-x-[-5rem] md:translate-y-[-2rem]  text-[#D2D4D7] ${anekGurmukhi.className}`}
-                    >
-                        <div className="space-y-3">
-                            <div className="flex flex-col pt-2 text-xs text-gray-400">
-                                <p className={`font-semibold text-[#D2D4D7] text-xl `}>
-                                    Broooo i just noticed squads used the picture of  GOAT for Lionel Messi in their platform and it’s bursting  my brain 😂
-                                    <span className="text-[#D0F091]">#Squadgame</span>
-                                </p>
-                                <div className="flex justify-between items-center mt-2">
-                                    <p className="text-[#fff] text-sm">{'@Izu__Official'}</p>
-                                    <Logo className="w-20 h-auto" />
+                    {/* <section className='flex md:hidden'>
+                        <div className="rounded-lg rotate-[-12deg]">
+                            <Image
+                                src={'/images/sm1.png'}
+                                alt="post"
+                                className="rounded-lg "
+                                height={120}
+                                width={650}
+                            />
+                        </div>
+                        <div className="rounded-lg rotate-12">
+                            <Image
+                                src={'/images/sm_2.png'}
+                                alt="post"
+                                className="rounded-lg"
+                                height={120}
+                                width={650}
+                            />
+                        </div>
+                        <div className="rounded-lg z-10">
+                            <Image
+                                src={'/images/sm_3.png'}
+                                alt="post"
+                                className="rounded-lg"
+                                height={120}
+                                width={650}
+                            />
+                        </div>
+                    </section> */}
+                    <section className="flex md:hidden justify-center items-center gap-2 px-2 relative overflow-hidden h-[220px]">
+                        <div className="transform rotate-[-12deg] scale-[1.3]">
+                            <Image
+                                src="/images/sm1.png"
+                                alt="post"
+                                className="rounded-lg"
+                                width={220}
+                                height={120}
+                            />
+                        </div>
+                        <div className="transform rotate-0 scale-[1.5] z-10">
+                            <Image
+                                src="/images/sm_4.png"
+                                alt="post"
+                                className="rounded-lg"
+                                width={240}
+                                height={140}
+                            />
+                        </div>
+                        <div className="transform rotate-[12deg] scale-[1.3]">
+                            <Image
+                                src="/images/sm_3.png"
+                                alt="post"
+                                className="rounded-lg"
+                                width={220}
+                                height={120}
+                            />
+                        </div>
+                    </section>
+
+                    <section>
+
+                        <div className={`bg-[#1A222C] rounded-xl p-5  w-[40%] lg:w-[23%] absolute left-0 bottom-0 rotate-[-8deg] lg:rotate-[-8deg]  transform translate-x-[2rem] lg:translate-x-[7rem] translate-y-[-10rem] text-[#D2D4D7] ${anekGurmukhi.className} hidden md:block`}
+                        >
+                            <div className="space-y-3">
+                                <div className="flex flex-col pt-2 text-xs text-gray-400">
+                                    <p className={`font-semibold text-[#D2D4D7] text-2xl `}>
+                                        If the team like, make dem lose, my entry should sha be green😌🔥
+                                        <span className="text-[#D0F091]">#Squadgame</span>
+                                    </p>
+                                    <div className="flex justify-between items-center mt-2">
+                                        <p className="text-[#fff] text-sm">{'@Izu__Official'}</p>
+                                        <Logo className="w-20 h-auto" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
 
-                <section className='flex absolute bottom-0 left-0 translate-x-[-4rem]  md:hidden'>
-                    <div className="rounded-lg rotate-[-12deg] transform translate-y-[-2rem] translate-x-[8rem]">
-                        <Image
-                            src={'/images/sm1.png'}
-                            alt="post"
-                            className="rounded-lg "
-                            // height={120}
-                            // width={650}
-                            fill
-                        />
-                    </div>
-                    <div className="rounded-lg rotate-12 transform translate-y-[-2rem] translate-x-[4rem]">
-                        <Image
-                            src={'/images/sm_2.png'}
-                            alt="post"
-                            className="rounded-lg"
-                            // height={120}
-                            // width={650}
-                            fill
-                        />
-                    </div>
-                    <div className="rounded-lg z-10">
-                        <Image
-                            src={'/images/sm_3.png'}
-                            alt="post"
-                            className="rounded-lg "
-                            // height={120}
-                            // width={650}
-                            fill
-                        />
-                    </div>
-                </section>
-            </div>
+                        <div
+                            className={`bg-[#1A222C] rounded-xl p-4 text-[#D2D4D7] w-2/5 lg:w-2/7 ${anekGurmukhi.className} rotate-[5deg] lg:rotate-[6deg] transform translate-x-[12rem] lg:translate-x-[20rem] translate-y-[-1rem] lg:translate-y-[-2rem] absolute left-0 bottom-0 hidden md:block`}
+                        >
+                            <div className="rounded-lg">
+                                <Image
+                                    src={'/images/ranks.png'}
+                                    alt="post"
+                                    className="rounded-lg w-full"
+                                    height={120}
+                                    width={200}
+                                />
+                            </div>
+
+                            <div className="space-y-3">
+                                <div className="flex flex-col pt-2 text-xs text-gray-400">
+                                    <div className="flex justify-between items-center mt-2">
+                                        <p className="text-[#fff] text-sm">{'@Izu__Official'}</p>
+                                        <Logo className="w-20 h-auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            className={`bg-[#1A222C] rounded-xl w-[40%] lg:w-[28%] p-6 absolute right-0 bottom-0 rotate-[1deg]  transform translate-x-[-1rem] lg:translate-x-[-10rem]  translate-y-[-4rem] text-[#D2D4D7] ${anekGurmukhi.className} hidden md:block`}
+                        >
+                            <div className="space-y-3">
+                                <div className="flex flex-col pt-2 text-xs text-gray-400">
+                                    <p className={`font-semibold text-[#D2D4D7] text-2xl `}>
+                                        Broooo i just noticed squads used the picture of  GOAT for Lionel Messi in their platform and it’s bursting  my brain 😂
+                                        <span className="text-[#D0F091]">#Squadgame</span>
+                                    </p>
+                                    <div className="flex justify-between items-center mt-2">
+                                        <p className="text-[#fff] text-sm">{'@Izu__Official'}</p>
+                                        <Logo className="w-20 h-auto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    {/* <section className='flex md:hidden position absolute bottom-0'>
+                        <div className="rounded-lg rotate-[-12deg]">
+                            <Image
+                                src={'/images/sm1.png'}
+                                alt="post"
+                                className="rounded-lg "
+                                height={120}
+                                width={650}
+                            />
+                        </div>
+                        <div className="rounded-lg rotate-12">
+                            <Image
+                                src={'/images/sm_2.png'}
+                                alt="post"
+                                className="rounded-lg"
+                                height={120}
+                                width={650}
+                            />
+                        </div>
+                        <div className="rounded-lg z-10">
+                            <Image
+                                src={'/images/sm_3.png'}
+                                alt="post"
+                                className="rounded-lg"
+                                height={120}
+                                width={650}
+                            />
+                        </div>
+                    </section> */}
+                    <section className="absolute bottom-0 left-1/2 -translate-x-1/2 flex md:hidden justify-center items-end gap-2 px-2 h-[260px] w-full overflow-hidden">
+                        {/* Left image (rotated and behind) */}
+                        <div className="rotate-[-12deg] scale-[1.4] z-0">
+                            <Image
+                                src="/images/sm1.png"
+                                alt="post"
+                                className="rounded-lg"
+                                width={200}
+                                height={120}
+                            />
+                        </div>
+
+                        {/* Center image (on top) */}
+                        <div className="z-10 scale-[1.6]">
+                            <Image
+                                src="/images/sm_2.png"
+                                alt="post"
+                                className="rounded-lg"
+                                width={240}
+                                height={140}
+                            />
+                        </div>
+
+                        {/* Right image (rotated and behind) */}
+                        <div className="rotate-[12deg] scale-[1.4] z-0">
+                            <Image
+                                src="/images/sm_3.png"
+                                alt="post"
+                                className="rounded-lg"
+                                width={200}
+                                height={120}
+                            />
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+
+            {/* transform translate-x-[-5rem] translate-y-[-10rem] */}
         </section>
     )
 }

@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased `}>
+      <body className={`antialiased  bg-[#141b23]`}>
         <RQProvider>
           {children}
         </RQProvider>
@@ -23,4 +23,3 @@ export default function RootLayout({
     </html>
   );
 }
-// bg-[#141b23]
