@@ -31,3 +31,13 @@ This project is a **responsive frontend UI** built for the _Squads Game_ assessm
 - Ensuring a **smooth responsive experience** for various device widths.
 - Using Swiper's **breakpoints and dynamic `slidesPerView`** to match designs for mobile and large screens.
 - Structuring clean and readable **React components** and leveraging Tailwind for scalable styling.
+
+## ⚠️ Troubleshooting
+
+### 🛑 CORS Error
+
+**Description:**  
+When trying to make an API request from the frontend, the browser blocks it due to CORS (Cross-Origin Resource Sharing) policy restrictions.
+
+**Screenshot:**  
+![CORS Error](https://res.cloudinary.com/dumzy/image/upload/v1748912594/Screenshot_2025-06-03_at_2.01.11_AM_p9wgbm.png)
