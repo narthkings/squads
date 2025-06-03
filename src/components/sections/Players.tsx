@@ -26,7 +26,6 @@ const gloriaHallelujah = Gloria_Hallelujah({
 });
 
 const Players = () => {
-    console.log(players)
 
     return (
         <section>
