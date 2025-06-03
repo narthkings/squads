@@ -41,3 +41,6 @@ When trying to make an API request from the frontend, the browser blocks it due 
 
 **Screenshot:**  
 ![CORS Error](https://res.cloudinary.com/dumzy/image/upload/v1748912594/Screenshot_2025-06-03_at_2.01.11_AM_p9wgbm.png)
+
+**Workaround:**  
+Due to this issue during development, I manually extracted sample data from the API response into a JSON file to simulate the experience in the frontend without relying on the live request.

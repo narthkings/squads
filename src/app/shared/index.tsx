@@ -722,3 +722,22 @@ export const Close = (props: SVGProps<SVGSVGElement>) => (
         />
     </svg>
 );
+
+
+export const CurvyLine = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        width={345}
+        height={145}
+        viewBox="0 0 345 145"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+    >
+        <path
+            d="M1.701 1.801c21.536 22.924 55.933 14.27 105.365 30.155 36.826 11.833 45.777 16.319 74.307 36.95 35.548 25.706 60.415 56.52 101.766 70.66 15.364 5.253 41.285 4.339 59.732-1.842"
+            stroke="#D0F091"
+            strokeWidth={3}
+            strokeLinecap="round"
+        />
+    </svg>
+);
