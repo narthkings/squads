@@ -16,7 +16,7 @@ const gloriaHallelujah = Gloria_Hallelujah({
 
 const Perks = () => {
     return (
-        <section className="relative w-full h-[110rem] md:h-[59rem] lg:h-[62rem] xl:h-[80rem] perksBg">
+        <section className="relative w-full h-[110rem] md:h-[59rem] lg:h-[62rem] xl:h-[80rem] z-1 perksBg">
 
             <YellowSVG2 className="absolute top-0 right-0 h-20 w-20 z-10 transform translate-x-[-10rem] sm:translate-x-[-12rem] md:translate-x-[-15rem] translate-y-[-1rem]" />
 
