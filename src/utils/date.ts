@@ -9,12 +9,17 @@ export function formatDate(date: Date): string {
                     ? 'rd'
                     : 'th';
 
-    const month = date.toLocaleString('en-NG', { month: 'short' }); // Mar
-    const time = date.toLocaleTimeString('en-NG', {
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: true,
-    });
+    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const month = monthNames[date.getMonth()];
+
+    const hours = date.getHours();
+    const minutes = date.getMinutes();
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    const hour12 = hours % 12 || 12;
+    const paddedMinutes = minutes.toString().padStart(2, '0');
+
+    const time = `${hour12}:${paddedMinutes} ${ampm}`;
 
     return `${day}${ordinal} ${month} ${time}`;
 }
